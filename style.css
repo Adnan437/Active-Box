@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@400;500;600;700;800&display=swap');
+
+/* font-family: 'Open Sans', sans-serif;
+   font-family: 'Raleway', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container{
+    width: 1200px;
+    padding: 0 25px;
+    margin: 0 auto;
+    
+}
+
+/* --------------Header section----------- */
+
+.header-section{
+    position: fixed;
+    width: 100%;
+}
+
+.header-section .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: greenyellow; */
+    height: 100px;
+    border-bottom: 1px solid white;
+}
+
+.header-menu .menu{
+    display: flex;
+}
+
+.header-menu .menu li a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 30px;
+}
+
+.header-menu .menu li:last-child a{
+    padding-right: 0;
+}
+
+
+/* -------------- Banner Section ------------ */
+
+.banner-section{
+    background-image: url(./img/banner-img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 254px;
+    padding-bottom: 156px;
+}
+
+.banner-section .container{
+    text-align: center;
+}
