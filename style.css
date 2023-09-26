@@ -145,3 +145,16 @@ a{
 
 /* ---------- Gallery section -------- */
 
+.gallery-section{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1px;
+}
+
+.gallery-section .gallery-item{
+    max-width: calc(25% - 1px);
+}
+
+.gallery-section .gallery-item img{
+    width: 100%;
+}
