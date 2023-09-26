@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@400;500;600;700;800&family=Raleway:wght@400;500;600;700;800&display=swap');
 
 /* font-family: 'Open Sans', sans-serif;
-   font-family: 'Raleway', sans-serif; */
+   font-family: 'Raleway', sans-serif;
+   font-family: 'Cardo', serif;
+   
+*/
 
 *{
     margin: 0;
@@ -102,6 +105,8 @@ a{
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 600;
+    cursor: pointer;
+    border: none;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -217,4 +222,86 @@ a{
 
 .team-member-social-link a i{
     color: #C6CACC;
+}
+
+
+
+
+/* ---------- Testimonial Section ---------- */
+
+.testimonial-section{
+    background-color: #53354A;
+}
+
+.testimonial-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-content .tc-item{
+    max-width: 50%;
+}
+
+.tc-img img{
+    width: 100%;
+}
+
+.tc-text{
+    padding-top: 115px;
+    padding-left: 86px;
+    padding-right: 80px;
+}
+
+.tc-text p:first-of-type{
+    font-family: 'Cardo', serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.tc-text p:last-of-type{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+/* --------- download-section --------- */
+
+.download-section{
+    padding: 100px 0;
+}
+
+.download-section .container{
+    text-align: center
+}
+
+.download-section .container p:first-of-type{
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #7F8183;
+}
+
+.download-section .container p:last-of-type{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.download-section .container button{
+    height: 46px;
+    width: 278px;
+    border-radius: 4px;
+    background-color: #E84545;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    border: none;
 }
