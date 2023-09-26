@@ -104,3 +104,44 @@ a{
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
 }
+
+
+/* ----------- Service section ---------- */
+
+.service-section{
+    padding: 120px;
+}
+.service-section .container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 68px;
+    column-gap: 5%;
+}
+
+.service-section .container .service-item{
+    max-width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.service-section .container .service-item h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 36px;
+    margin-bottom: 26px;
+}
+
+.service-section .container .service-item p{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+/* ---------- Gallery section -------- */
+
